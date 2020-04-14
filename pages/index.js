@@ -1,12 +1,16 @@
+import { Heading, Flex, Text } from "@chakra-ui/core";
+
 const Home = () => (
-  <section class="hero is-fullheight">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">🦉crooked owl</h1>
-        <h2 class="subtitle">coming soon to trees near you</h2>
-      </div>
-    </div>
-  </section>
+  <Flex
+    h="100vh"
+    justifyContent="center"
+    alignItems="center"
+    direction="column"
+    bg="tertiary"
+  >
+    <Heading color="primary">🦉 crooked owl</Heading>
+    <Text color="secondary">coming soon to trees near you</Text>
+  </Flex>
 );
 
 export default Home;
