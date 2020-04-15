@@ -1,18 +1,21 @@
 import { Heading, Box, Flex, Text } from "@chakra-ui/core";
+import Div100vh from "react-div-100vh";
 
 const Home = () => (
-  <Flex
-    h="100vh"
-    justifyContent="center"
-    alignItems="center"
-    direction="column"
-    bg="tertiary"
-  >
-    <Box>
-      <Heading color="primary">🦉 crooked owl</Heading>
-      <Text color="secondary">coming soon to trees near you</Text>
-    </Box>
-  </Flex>
+  <Div100vh>
+    <Flex
+      h="100%"
+      justifyContent="center"
+      alignItems="center"
+      direction="column"
+      bg="tertiary"
+    >
+      <Box>
+        <Heading color="primary">🦉 crooked owl</Heading>
+        <Text color="secondary">coming soon to trees near you</Text>
+      </Box>
+    </Flex>
+  </Div100vh>
 );
 
 export default Home;
