@@ -12,7 +12,7 @@ const Home = () => (
     >
       <Box>
         <Heading color="primary">🦉 crooked owl</Heading>
-        <Text color="secondary">coming soon to trees near you</Text>
+        <Text color="secondary">coming soon to towns near you</Text>
       </Box>
     </Flex>
   </Div100vh>
